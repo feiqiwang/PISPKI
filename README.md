@@ -1,6 +1,10 @@
 # PISPKI
 [Correspondence: wangfeiqi@kuicr.kyoto-u.ac.jp]\
-The PISPKI model is a PyTorch-based program developed for the prediction of interaction sites of protein kinase inhibitors, which is a Weisfiler-Lehman algorithm-based graph neural network attached with a novel module (i.e., WL Box). 
+The PISPKI model is a PyTorch-based program developed for the prediction of interaction sites of protein kinase inhibitors, which is a Weisfiler-Lehman algorithm-based graph neural network attached with a novel module (i.e., WL Box). The architecture of the PISPKI model is shown as follow: 
+![Architecture of the PISPKI model](https://github.com/feiqiwang/screenshots/blob/master/modelArchitecture.png?raw=true)
+
+The WL Box module is developed to enrich the inputted graph features based on Weisfiler-Lehman algorithm, and the following figure describes the structure of WL Box:
+![Structure of WL Box](https://github.com/feiqiwang/screenshots/blob/master/wl_box.png?raw=true)
 
 ## Requirement
 
